@@ -1,0 +1,99 @@
+h1{
+  font-size: 3em;
+  margin-left: 10px;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  font-size: 2em;
+}
+li{
+  font-family: monospace;
+  font-size: 1.5em;
+}
+.underline{
+  margin-left: 0px; border: 2px solid black; width: 75%;
+}
+
+.underline2{
+  border: 2px solid black; width: 75%; margin-left: 0;
+}
+
+.page-sep{
+  display: block; border: 5px solid black; width: 100vw; margin-left: 0;padding-left: 0;
+}
+
+.intro{
+  display: grid;
+  grid-template-columns: 50vw 40vw;
+  column-gap: 10vw;
+  grid-template-rows: 95vh;
+}
+
+.text{
+  padding: 0;
+  margin-top: 100px;
+  margin-left:10px ; 
+  font-family: monospace;
+}
+
+.pic{
+
+  padding: 10px;
+}
+
+#me{
+  aspect-ratio: auto;
+  height: 79%;
+  border-radius: 40%;
+  border-top: 10px solid black;
+  border-left: 5px solid black;
+  border-bottom: 1px solid black;
+}
+
+.skill{
+  display: grid;
+  grid-template-columns: repeat(5,15vw);
+  column-gap:5vw;
+  grid-template-rows:20vh 20vh;
+  padding-left: 20px;
+}
+
+.social{
+  display: grid;
+  grid-template-columns: repeat(5,15vw);
+  column-gap:5vw;
+  grid-template-rows: 20vh 20vh 20vh;
+
+  padding-left: 20px;
+}
+
+
+.img {
+
+  aspect-ratio: auto;
+  height:100px;
+  margin:30px;
+}
+
+/* Scrollbar settings */
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background-color: black;
+}
+::-webkit-scrollbar-thumb{
+  background: white;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: rgb(130, 130, 131);
+}
+
+.scroller-link{
+  scroll-behavior: smooth;
+}
